@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#search {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    width: 600px;
+    line-height: 40px;
+    background-color: #D1FBFF;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    -moz-box-shadow: 0px -4px 24px -5px rgba(189, 199, 199, 0.79);
+    -webkit-box-shadow: 0px -4px 24px -5px rgba(189, 199, 199, 0.79);
+    -ms-box-shadow: 0px -4px 24px -5px rgba(189, 199, 199, 0.79);
+    box-shadow: 0px -4px 24px -5px rgba(189, 199, 199, 0.79);
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    padding: 20px;
+    width: 70%;
+    line-height: 40px;
+    background-color: #D1FBFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -5px #e7e8e8;
+    text-align: center;
+}
+
+form h1, .result h1{
+    font-size: 30px;
+    font-family: 'Kiwi Maru', serif;
+}
+
+form h2, .result h2 {
+    font-size: 24px;
+    font-family: 'Kiwi Maru', serif;
+}
+
+form h3, .result h3 {
+    font-size: 15px;
+    font-family: 'Kiwi Maru', serif;
+
+}
+
+.result h3 {
+    color: #FF00A2;
+}
+
+form p, .result p {
+    font-size: 15px;
+    font-family: 'Kiwi Maru', serif;
+
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    font-family: 'Kiwi Maru', serif;
+}
+
+.homebtn a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Kiwi Maru', serif;
+
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        max-width: 350px;
+        width: 100%;
+        padding: 10px;
+        margin: 50px auto;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form h1, .result h1{
+        font-size: 20px;
+    }
+
+    form h2, .result h2 {
+        font-size: 18px;
+    }
+
+    form h3, .result h3 {
+        font-size: 12px;
+    }
+
+    form p, .result p {
+        font-size: 12px;    
+    }
+
+    .result {
+        max-width: 350px;
+    }
+}
+
+
+
